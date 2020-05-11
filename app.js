@@ -6,13 +6,13 @@ if (process.env.NODE_ENV !== "production") {
     require("dotenv").config({
         path: "./config/config.env",
     });
+    app.use(require("morgan")(process.env.NODE_ENV));
 }
 //
 require("./dbconnect");
 
 app.use(require("body-parser").json());
 app.use(require("body-parser").urlencoded({ extended: true }));
-app.use(require("morgan")(process.env.NODE_ENV));
 app.use(userRouter);
 app.use(require("./routes/themeroutes"));
 
