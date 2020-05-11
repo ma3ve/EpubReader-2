@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/EpubReader/static/css/main.1e5ec243.chunk.css",
+    "main.js": "/EpubReader/static/js/main.b5aeb1a2.chunk.js",
+    "main.js.map": "/EpubReader/static/js/main.b5aeb1a2.chunk.js.map",
+    "runtime-main.js": "/EpubReader/static/js/runtime-main.db9415e4.js",
+    "runtime-main.js.map": "/EpubReader/static/js/runtime-main.db9415e4.js.map",
+    "static/js/2.e076fbd8.chunk.js": "/EpubReader/static/js/2.e076fbd8.chunk.js",
+    "static/js/2.e076fbd8.chunk.js.map": "/EpubReader/static/js/2.e076fbd8.chunk.js.map",
+    "index.html": "/EpubReader/index.html",
+    "precache-manifest.e606c3242a44536d6045b058d619f40f.js": "/EpubReader/precache-manifest.e606c3242a44536d6045b058d619f40f.js",
+    "service-worker.js": "/EpubReader/service-worker.js",
+    "static/css/main.1e5ec243.chunk.css.map": "/EpubReader/static/css/main.1e5ec243.chunk.css.map",
+    "static/js/2.e076fbd8.chunk.js.LICENSE.txt": "/EpubReader/static/js/2.e076fbd8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db9415e4.js",
+    "static/js/2.e076fbd8.chunk.js",
+    "static/css/main.1e5ec243.chunk.css",
+    "static/js/main.b5aeb1a2.chunk.js"
+  ]
+}

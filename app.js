@@ -1,14 +1,13 @@
 const express = require("express");
 const userRouter = require("./routes/userRouter");
 const app = express();
-const path = require("path");
 
-if (process.env.NODE_ENV) {
+if (process.env.NODE_ENV !== "production") {
     require("dotenv").config({
         path: "./config/config.env",
     });
 }
-
+//
 require("./dbconnect");
 
 app.use(require("body-parser").json());
@@ -19,7 +18,7 @@ app.use(require("./routes/themeroutes"));
 
 app.use(require("./routes/uploadRoute"));
 
-if (production.env.NODE_ENV === "production") {
+if (process.env.NODE_ENV === "production") {
     app.use(express.static("client/build"));
 }
 
