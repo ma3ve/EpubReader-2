@@ -9,7 +9,7 @@
         "@testing-library/jest-dom": "^4.2.4",
         "@testing-library/react": "^9.5.0",
         "@testing-library/user-event": "^7.2.1",
-        "aws-sdk": "^2.664.0",
+        "aws-sdk": "^2.814.0",
         "axios": "^0.19.2",
         "gh-pages": "^2.2.0",
         "js-cookie": "^2.2.1",
